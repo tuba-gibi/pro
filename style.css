@@ -1,9 +1,9 @@
-* {
+*:not(i) {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   background-color: rgb(19, 30, 37);
-
+  color: wheat;
   text-align: center;
 }
 h1 {
