@@ -116,7 +116,7 @@ textarea:focus {
   padding: 20px;
 }
 .btn:hover::after{
-    content: '👆🏻';
+    content: '📤';
     color: yellow;
 }
 .top{
@@ -145,4 +145,7 @@ textarea:focus {
 }
 .pro:hover::before{
   content:"⚛︎" ;
+}
+.top:hover::after{
+  content:"👆🏻" ;
 }
