@@ -24,7 +24,7 @@ h1:hover {
 }
 header nav a {
   background-color: gray;
-  color: whe;
+  color: wheat;
   text-decoration: none;
   border-radius: 10px;
   padding: 0.5em 1em;
@@ -69,7 +69,7 @@ p {
   font-family: "Rampart One", cursive;
   font-size: 28px;
   color: #ffebcd;
-  margin: 2em auto;
+  margin: 1em auto;
 }
 img:hover {
   opacity: 0.5;
@@ -133,4 +133,16 @@ textarea:focus {
     border-radius: 10px;
     display: inline-block;
     width: 100px;
+}
+.hom:hover::before{
+  content:"🏠" ;
+}
+.con:hover::before{
+  content:"𝌕" ;
+}
+.abo:hover::before{
+  content:"☯︎" ;
+}
+.pro:hover::before{
+  content:"⚛︎" ;
 }
