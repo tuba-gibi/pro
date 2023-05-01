@@ -21,6 +21,12 @@ h1 {
 h1:hover {
   cursor: pointer;
   font-weight: bolder;
+  transition: 1s;
+}
+h1:hover{
+  -ms-transform: rotate(10deg); 
+  transform: rotate(5deg);
+
 }
 header nav a {
   background-color: rgb(184, 183, 183);
@@ -37,8 +43,8 @@ header nav a {
   transition: 1s;
 }
 header nav a:hover {
-  -ms-transform: rotate(10deg); /* IE 9 */
-  transform: rotate(10deg);
+  -ms-transform: rotate(10deg); 
+  transform: rotate(720deg);
   font-weight: bolder;
   color:rgb(243, 41, 5);
   opacity: 0.7;
